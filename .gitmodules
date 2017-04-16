@@ -1,0 +1,3 @@
+[submodule "AIND-Sudoku"]
+	path = AIND-Sudoku
+	url = git@github.com:keithblaha/AIND-Sudoku.git
