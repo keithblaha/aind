@@ -1,5 +1,7 @@
 FROM keithblaha/anaconda
 
+MAINTAINER Keith Blaha <keith.blaha@gmail.com>
+
 ADD aind-environment-unix.yml .
 
 RUN conda env create -f aind-environment-unix.yml
