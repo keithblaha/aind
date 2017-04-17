@@ -7,8 +7,8 @@ else
   DIR="$1"
 fi
 
-docker build -t keithblaha/anaconda ./anaconda-docker
-docker build -t keithblaha/aind ./aind-docker
+docker build -t keithblaha/anaconda -f Dockerfile-anaconda .
+docker build -t keithblaha/aind -f Dockerfile-aind .
 
 docker run                                \
   --net=host                              \
