@@ -1,10 +1,10 @@
-FROM centos:7
+FROM fedora:25
 
 MAINTAINER Keith Blaha <keith.blaha@gmail.com>
 
 RUN curl -O https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
 
-RUN yum install -y bzip2
+RUN dnf install -y bzip2
 
 ENV ANACONDA_HOME=/anaconda
 
