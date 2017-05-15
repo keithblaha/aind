@@ -1,3 +1,6 @@
 [submodule "AIND-Sudoku"]
 	path = AIND-Sudoku
 	url = git@github.com:keithblaha/AIND-Sudoku.git
+[submodule "AIND-Isolation"]
+	path = AIND-Isolation
+	url = git@github.com:keithblaha/AIND-Isolation.git
