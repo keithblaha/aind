@@ -15,4 +15,5 @@ docker run                                \
   -e=DISPLAY                              \
   -v=$HOME/.Xauthority:/root/.Xauthority  \
   -v=$PWD/$DIR:/src                       \
+  -p=8888                                 \
   -it keithblaha/aind

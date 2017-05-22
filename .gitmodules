@@ -4,3 +4,6 @@
 [submodule "AIND-Isolation"]
 	path = AIND-Isolation
 	url = git@github.com:keithblaha/AIND-Isolation.git
+[submodule "AIND-Simulated_Annealing"]
+	path = AIND-Simulated_Annealing
+	url = git@github.com:keithblaha/AIND-Simulated_Annealing.git
