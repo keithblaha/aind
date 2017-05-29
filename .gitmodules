@@ -7,3 +7,6 @@
 [submodule "AIND-Simulated_Annealing"]
 	path = AIND-Simulated_Annealing
 	url = git@github.com:keithblaha/AIND-Simulated_Annealing.git
+[submodule "AIND-Constraint_Satisfaction"]
+	path = AIND-Constraint_Satisfaction
+	url = git@github.com:keithblaha/AIND-Constraint_Satisfaction.git
