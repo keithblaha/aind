@@ -10,3 +10,6 @@
 [submodule "AIND-Constraint_Satisfaction"]
 	path = AIND-Constraint_Satisfaction
 	url = git@github.com:keithblaha/AIND-Constraint_Satisfaction.git
+[submodule "AIND-Planning"]
+	path = AIND-Planning
+	url = git@github.com:keithblaha/AIND-Planning.git
