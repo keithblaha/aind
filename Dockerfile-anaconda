@@ -4,7 +4,7 @@ MAINTAINER Keith Blaha <keith.blaha@gmail.com>
 
 RUN curl -O https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
 
-RUN dnf install -y bzip2
+RUN dnf install -y bzip2 git @development-tools
 
 ENV ANACONDA_HOME=/anaconda
 

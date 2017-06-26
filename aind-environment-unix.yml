@@ -69,6 +69,7 @@ dependencies:
 - xz=5.2.2=1
 - zlib=1.2.8=3
 - pip:
+  - git+https://github.com/hmmlearn/hmmlearn.git
   - ipython-genutils==0.1.0
   - jupyter-client==5.0.0
   - jupyter-console==5.1.0

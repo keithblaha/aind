@@ -13,3 +13,6 @@
 [submodule "AIND-Planning"]
 	path = AIND-Planning
 	url = git@github.com:keithblaha/AIND-Planning.git
+[submodule "AIND-Recognizer"]
+	path = AIND-Recognizer
+	url = git@github.com:keithblaha/AIND-Recognizer.git
