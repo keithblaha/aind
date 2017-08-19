@@ -16,3 +16,6 @@
 [submodule "AIND-Recognizer"]
 	path = AIND-Recognizer
 	url = git@github.com:keithblaha/AIND-Recognizer.git
+[submodule "aind2-dl"]
+	path = aind2-dl
+	url = git@github.com:keithblaha/aind2-dl.git
