@@ -19,3 +19,6 @@
 [submodule "aind2-dl"]
 	path = aind2-dl
 	url = git@github.com:keithblaha/aind2-dl.git
+[submodule "aind2-cnn"]
+	path = aind2-cnn
+	url = git@github.com:keithblaha/aind2-cnn.git

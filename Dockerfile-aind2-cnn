@@ -1,0 +1,28 @@
+FROM nvidia/cuda:8.0-cudnn5-runtime-centos7
+
+MAINTAINER Keith Blaha <keith.blaha@gmail.com>
+
+RUN yum groupinstall -y 'Development Tools'  && \
+    yum install -y git
+
+RUN curl -o anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+
+ENV ANACONDA_HOME=/anaconda
+
+RUN bash anaconda.sh -b -p $ANACONDA_HOME
+
+ENV PATH="$ANACONDA_HOME/bin:$PATH"
+
+ADD aind-dog-linux.yml .
+
+RUN conda env create -f aind-dog-linux.yml
+
+RUN source activate aind-dog
+
+RUN echo 'source activate aind-dog' > /root/.bashrc
+
+WORKDIR /src
+
+ENV KERAS_BACKEND=tensorflow
+
+CMD bash
