@@ -22,3 +22,6 @@
 [submodule "aind2-cnn"]
 	path = aind2-cnn
 	url = git@github.com:keithblaha/aind2-cnn.git
+[submodule "dog-project"]
+	path = dog-project
+	url = git@github.com:keithblaha/dog-project.git
