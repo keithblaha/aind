@@ -25,3 +25,6 @@
 [submodule "dog-project"]
 	path = dog-project
 	url = git@github.com:keithblaha/dog-project.git
+[submodule "aind2-rnn"]
+	path = aind2-rnn
+	url = git@github.com:keithblaha/aind2-rnn.git
